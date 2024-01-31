@@ -17,8 +17,11 @@ namespace LibrarySystem
 
             library.AvailbleBooks();
             library.BorrowedBooks();
+            book1.PrintBorrowerInfo();
             t1.ReturnABook(book1);
             library.AvailbleBooks();
+
+            book1.PrintBorrowerInfo();
             Console.ReadKey();
         }
     }
